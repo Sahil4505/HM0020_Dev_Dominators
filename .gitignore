@@ -1,0 +1,47 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# Build & Output
+/.next/
+/out/
+/build/
+/dist/
+.parcel-cache/
+
+# Testing
+/coverage
+
+# Debugging
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+**/*.log
+.eslintcache
+.prettiercache
+
+# Local Environment Files
+.env*
+!.env.example  # Keep a sample env file
+
+# IDE & Editor Specific
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Vercel & Deployment
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Sentry
+.sentryclirc
