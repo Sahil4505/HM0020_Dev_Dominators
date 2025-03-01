@@ -5,14 +5,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev -H 0.0.0.0 -p 3000",
-    "start": "next start -H 0.0.0.0 -p 3000",
-    "build": "next build",
-    "lint": "next lint",
-    "db:generate": "drizzle-kit generate",
-    "db:migrate": "drizzle-kit migrate",
-    "db:studio": "drizzle-kit studio"
-  },
+  "dev": "next dev -H 0.0.0.0 -p 3000",
+  "start": "next start -p $PORT",
+  "build": "next build",
+  "lint": "next lint",
+  "db:generate": "drizzle-kit generate",
+  "db:migrate": "drizzle-kit migrate",
+  "db:studio": "drizzle-kit studio"
+},
   "dependencies": {
     "@clerk/backend": "^1.2.1",
     "@clerk/nextjs": "^5.1.3",
